@@ -36,7 +36,7 @@ showButton.addEventListener('click', function(){
         secondColumn = document.createElement('td');
 
     firstColumn.innerText = 'Name';
-    secondColumn.innerText = 'Coast';
+    secondColumn.innerText = 'Cost';
     row.append(firstColumn);
     row.append(secondColumn);
     table.append(row);
